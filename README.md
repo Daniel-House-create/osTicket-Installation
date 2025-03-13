@@ -17,11 +17,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install IIS and activate CGI
+- Install PHP manager for IIS, Rewrite Module, and MySQL
+- Install OS Ticket and the necessary extensions
 
 <h2>Installation Steps</h2>
 
@@ -31,7 +29,7 @@ First, I created a virtual machine using Microsoft Azure. I used the Windows 10 
 <br />
 
 <p>
-<img " alt="Screenshot 2025-03-02 at 4 13 07 PM" src="https://github.com/user-attachments/assets/c5ce4e69-60c7-4091-8482-a4273b35d766"/>
+<img width="600" alt="Screenshot 2025-03-02 at 4 13 07 PM" src="https://github.com/user-attachments/assets/c5ce4e69-60c7-4091-8482-a4273b35d766"/>
 </p>
 <p>
 Second, I went and installed IIS, or Internet Information Services, and activating CGI, or Common Gateway Interface. IIS is used on Microsoft Windows to host websites, applications, and services. CGI acts as a bridge between a web server and applications running on it, allowing them to share data. 
